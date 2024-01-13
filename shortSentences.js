@@ -5,8 +5,22 @@
 
 
 function toBe(noun,anothernoun,verb="be"){
-    console.log(`${noun} ${verb} ${anothernoun}`)
+   return `${noun} ${verb} ${anothernoun}`
 
 }
 
-toBe("cow", "fun")
+function linking(noun, anothernoun, verb="become") {
+    return `${noun} ${verb} ${anothernoun}`
+}
+
+
+function intransitives() {
+
+}
+
+function transitives() {
+    
+}
+
+
+console.log(toBe("cow", "fun"), linking("cow", "fun"));
